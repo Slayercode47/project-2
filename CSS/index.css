@@ -1,0 +1,76 @@
+body {
+    font-family: 'Lexend';
+}
+:root{
+    --main-color: #ffffff;
+    --secondary-color: #ff6310;
+    --another-color: #1E262E;
+}
+.nav-link{
+    color: var(--another-color);
+}
+.nav-link:hover{
+    color: var(--secondary-color);
+}
+.active{
+    color: var(--secondary-color)!important;
+}
+.nav-sect{
+    width: 100%;
+    height: 130px;
+}
+
+/* Hero section starts  */
+.hero-sect{
+    padding-top: 100px;
+}
+.hero-title{
+    width: 100%;
+    height: 300px;
+    letter-spacing: 2px;
+    padding-left: 115px;
+}
+.hero-content{
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+.btn-hero{
+    background-color: var(--another-color);
+    text-transform: capitalize;
+    padding: 15px 30px;
+}
+.btn-spn{
+    font-size: 18px;
+}
+/* .hero-content-2{
+    display: flex;
+    justify-content: space-between;
+} */
+.hero-bg{
+    height: 575.7px;
+    width: 759px;
+    background-image: url("../Images/female-male-workers-wearing-work-clothes_273609-10985.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Hero section ends */
+
+
+/* footer section starts */
+
+.foot-sect{
+    padding-top: 500px;
+}
+.foot-img{
+    width: 75px;
+    height: 100px;
+}
+.foot-content{
+    display: flex;
+    flex-direction: row;
+}
+/* footer section ends */
