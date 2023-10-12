@@ -1,76 +1,265 @@
 body {
     font-family: 'Lexend';
 }
-:root{
+
+:root {
     --main-color: #ffffff;
     --secondary-color: #ff6310;
     --another-color: #1E262E;
+    --another-color-2: #feeedd;
+    --icon-section: #687279;
 }
-.nav-link{
+
+.nav-sect {
+    position: fixed;
+}
+
+.nav-link {
     color: var(--another-color);
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: var(--secondary-color);
 }
-.active{
-    color: var(--secondary-color)!important;
+
+.active {
+    color: var(--secondary-color) !important;
 }
-.nav-sect{
+
+.nav-sect {
     width: 100%;
     height: 130px;
 }
 
 /* Hero section starts  */
-.hero-sect{
-    padding-top: 100px;
+.hero-sect {
+    padding-top: 120px;
 }
-.hero-title{
+
+.hero-title {
     width: 100%;
     height: 300px;
     letter-spacing: 2px;
     padding-left: 115px;
+    padding-top: 176px;
 }
-.hero-content{
+
+.hero-content {
     color: var(--secondary-color);
     font-weight: 700;
 }
-h1{
+
+h1 {
     font-weight: 700;
     font-size: 60px;
 }
-.btn-hero{
+
+.btn-hero {
     background-color: var(--another-color);
     text-transform: capitalize;
     padding: 15px 30px;
 }
-.btn-spn{
+
+.btn-spn {
     font-size: 18px;
 }
+
 /* .hero-content-2{
     display: flex;
     justify-content: space-between;
 } */
-.hero-bg{
-    height: 575.7px;
+.hero-bg {
+    height: 700px;
     width: 759px;
-    background-image: url("../Images/female-male-workers-wearing-work-clothes_273609-10985.jpg");
+    background-image: url("../Images/newpic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.check-col {
+    background-color: #1E262E;
+    color: #ffffff;
+}
+
+.orange-div {
+    background-color: var(--secondary-color);
+    margin-top: -82px;
+    margin-left: 400px;
+    width: 881px;
+    height: 250px;
+}
+
 /* Hero section ends */
 
 
 /* footer section starts */
 
-.foot-sect{
-    padding-top: 500px;
+.foot-sect {
+    padding-top: 150px;
 }
-.foot-img{
+
+.foot-img {
     width: 75px;
     height: 100px;
 }
-.foot-content{
+
+.foot-content {
     display: flex;
     flex-direction: row;
 }
+
 /* footer section ends */
+
+
+/* First Section starts  */
+
+.yellow-sect {
+    background-color: var(--another-color-2);
+    width: 400px;
+    height: 450px;
+}
+
+.first-cont {
+    font-weight: 800;
+}
+
+.icon {
+    color: var(--secondary-color);
+    font-size: 50px;
+}
+
+.first-sect-cont {
+    height: 100%;
+    width: 50%;
+    padding: 50px;
+}
+
+.first-para {
+    color: var(--icon-section);
+}
+
+/* First Section ends  */
+
+
+/* Our Section starts  */
+.our-cont {
+    color: var(--secondary-color);
+}
+
+.our-work {
+    width: 100%;
+    height: 658px;
+    background-color: var(--another-color);
+}
+
+/* Our Section ends  */
+
+
+/* WHy choose us sections strats  */
+
+.content {
+    padding-left: 50px;
+}
+
+.service-hero {
+    padding-top: 80px;
+    line-height: 50px;
+}
+
+.btn-hero {
+    background-color: var(--another-color);
+    text-transform: capitalize;
+    padding: 11px 17px;
+}
+
+.btn-spn {
+    font-size: 15px;
+}
+
+.container-fluid-2 {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.icon {
+    color: var(--icon-color);
+}
+
+/* WHy choose us sections ends */
+
+
+/* coloured-section starts */
+.coloured-sect{
+    margin-top: 150px;
+}
+.colour-cont{
+    width: 387px;
+    height: 574px;
+    background-color: var(--another-color);
+}
+.colour-cont-2{
+    width: 387px;
+    height: 233px;
+    height: auto;
+    background-color: var(--another-color);
+}
+.colour-img-2{
+    width: 861px;
+    height: 233px;
+    background-color: var(--secondary-color);
+}
+/* coloured-section ends  */
+
+
+/* image-section starts  */
+
+.img-sect{
+    margin-top: 150px;
+}
+
+/* image-section ends  */
+
+
+/* form-section starts  */
+.required:after {
+    content:"*";
+    color: red;
+  }
+.form-img{
+    width: 100%;
+    height: 950px;
+    background-image: url(../Images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-sect{
+    margin-top: 150px;
+}
+.form-cont{
+    margin-top: 150px;
+    height: 631px;
+    width: 581px;
+    background-color: var(--main-color);
+}
+.btn-book{
+    margin-top: 30px;
+    width: 100%;
+    height: 45px;
+    background-color: var(--secondary-color);
+    border: none;
+}
+.book-btn{
+    font-size: 13px
+}
+/* form-section ends  */
+
+
+/* last-section ends  */
+
+.last-sect{
+    width: 100%;
+    height: 340px;
+    background-color: var(--secondary-color);
+}
+
+/* last-section ends  */

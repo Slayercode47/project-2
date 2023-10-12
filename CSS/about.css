@@ -8,6 +8,7 @@ body {
     --secondary-color: #ff6310;
     --another-color: #1E262E;
     --another-color-2: #FEEEDD;
+    --icon-color: #fd7c47;
 }
 .nav-link{
     color: var(--another-color);
@@ -25,9 +26,34 @@ body {
 }
 
 /* Hero section starts  */
-
-
-
+.content{
+    padding-left: 50px;
+}
+.service-hero{
+    padding-top: 80px;
+    line-height: 50px;
+}
+.hero-cont{
+    background-color: var(--secondary-color);
+}
+.btn-hero{
+    background-color: var(--another-color);
+    text-transform: capitalize;
+    padding: 11px 17px;
+}
+.btn-spn{
+    font-size: 15px;
+}
+.container-fluid-2{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.hero-cont-2{
+    background-color: var(--another-color-2);
+}
+.icon{
+    color: var(--icon-color);
+}
 /* Hero section ends */
 
 
